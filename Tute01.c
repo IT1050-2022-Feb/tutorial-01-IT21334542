@@ -4,8 +4,15 @@
 
 #include <stdio.h>
 
-int main() {
-  
+int main() 
+{
+  float mark[2]={0,0};
+  printf("ENTER THE MARK01 ::");
+  scanf("%f",&mark[0]);
+  printf("ENTER THE MARK02 ::");
+  scanf("%f",&mark[1]);
+
+  printf("\n\nAverage Of THE 2 marks IS::%.2f",(mark[0]+mark[1])/2);
   return 0;
 }
 
